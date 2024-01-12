@@ -41,10 +41,6 @@ while True:
 
             # class name
             cls = int(box.cls[0])
-
-            print("-----DEBUG-----")
-            print("cls is: " , cls)
-            print("classes cls is:" , classes[cls])
             if 0 <= cls < len(classes):
                 if classes[cls] == "potted plant":
 
